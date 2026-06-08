@@ -2,7 +2,7 @@
 
 ## About Me
 
-I am a first-year Web Development student who is interested in learning how to build websites and web applications.
+I am a second-year Web Development student who is interested in learning how to build websites and web applications.
 
 ## Basic Information
 

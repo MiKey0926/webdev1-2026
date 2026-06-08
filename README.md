@@ -46,7 +46,7 @@ I am a second-year Web Development student who is interested in learning how to 
 ## Favorite Websites
 
 * https://vgen.co/
-* https://www.youtube.com/
+* https://www.carousell.sg/?srsltid=AfmBOopQDBI1SfaAbexFNbuz0gfzWQ8OEL4dv-kRHFWUfai10NDe2ltr
 * https://store.steampowered.com/
 
 ## Contact Information
@@ -56,4 +56,4 @@ I am a second-year Web Development student who is interested in learning how to 
 
 ## Fun Fact
 
-I enjoy learning new technologies and exploring how websites work behind the scenes.
+I enjoy playing games with my friends, and relaxing.

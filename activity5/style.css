@@ -1,0 +1,153 @@
+.quote-card {
+    background: #fff8f0;
+    border-left: 6px solid #f97316;
+    padding: 24px 28px;
+    max-width: 300px;
+    border-radius: 0 8px 8px 0;
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    font-size: 1rem;
+    color: #1c1917;
+    font-style: italic;
+    line-height: 1.6;
+    margin-bottom: 12px;
+}
+
+cite {
+    font-style: normal;
+    font-family: Arial, san-serif;
+    font-size: 0.78rem;
+    color: #78716c;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+}
+
+.stats {
+    display: flex;
+    background: #1e1b4b;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+.stat {
+    flex: 1;
+    text-align: center;
+    padding: 20px 16px;
+    border-right: 1px solid #312e81;
+    border-left: none;
+    /*last child?*/
+
+}
+
+.num {
+    display: block;
+    font-size: 1.8rem / bold;
+    color: #a5b4fc;
+    margin-bottom: 4px;
+}
+
+.label {
+    display: block;
+    font-size: 0.7rem;
+    color: #818cf8;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.field {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+    width: 260px;
+}
+
+label {
+    font-size: 0.8rem / bold;
+    color: #1e3a5f;
+    letter-spacing: 0.5px;
+}
+
+input {
+    padding: 10px 14px;
+    border: 2px solid #Cbd5e1;
+    border-radius: 6px;
+    font-size: 0.9rem;
+    background: #f8fafc;
+    outline: none;
+}
+
+input:focus {
+    border-color: #3b82f6;
+    background: #eff6ff;
+}
+
+.helper {
+    font-size: 0.72rem;
+    color: #64748b;
+}
+
+.banner {
+    background: #0f0f23;
+    padding: 28px 32px;
+    border-radius: 10px;
+    text-align: center;
+}
+
+h2 {
+    font-family: Georgia, serif;
+    font-size: 2rem / bold;
+    background: linear-gradient(98deg, #f97316, #ec4899, #8b5cf6);
+    -webkit-background-clip: text;
+    background-clip: text;
+    margin-bottom: 6px;
+}
+
+p {
+    font-size: 0.82rem;
+    color: #6B728B;
+}
+
+.price-card {
+    background: #ffffff;
+    border: 1px solid #e2e8f0;
+    border-radius: 10px;
+    padding: 24px 28px;
+    text-align: center;
+    width: 200px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.06);
+
+}
+
+.label {
+    font-size: 0.7rem;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #94a3b8;
+    margin-bottom: 8px;
+}
+
+.old-price {
+    font-size: 1rem;
+    color: #94a3b8;
+    text-decoration: line-through;
+    margin-bottom: 4px;
+}
+
+.new-price {
+    font-size: 2rem / bold;
+    color: #16a34a;
+}
+
+.save-badge {
+    display: inline-block;
+    margin-top: 10px;
+    background: #dcfce7;
+    color: #16a43A;
+    font-size: 0.72rem / bold;
+    font-weight: 0.72rem / bold;
+    padding: 3px 10px;
+    border-radius: 20px;
+
+}

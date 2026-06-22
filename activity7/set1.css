@@ -1,0 +1,171 @@
+    /* 01 */
+/* .container{
+   display: flex;
+   justify-content: space-between;
+} */
+
+    /* 01 */
+/* .box {
+    background-color: #ffffff;
+    box-shadow: 0 5px 4px rgba(58, 148, 232, 0.1);
+    border-radius: 6px;
+    padding: 27px;
+    margin: 12px;
+    font-family: Arial, sans-serif;
+    color: #adadad;
+} */
+
+    /* 02 */
+/* .container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+} */
+
+    /* 02 */
+/* .box {
+    border-radius: 6px;
+    padding: 27px;
+    margin: 6px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: Arial, sans-serif;
+    color: #adadad;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
+} */
+
+    /* 03 */
+/* .container {
+    display: flex;
+    align-items: flex-end;
+} */
+
+/* .box {
+    display: flex;
+    justify-content: center;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
+    border-radius: 6px;
+    padding: 27px;
+    margin: 12px;
+    font-family: Arial, sans-serif;
+    color: #adadad;
+} */
+
+/* .box.short {
+    display: flex;
+    justify-content: center;
+    line-height: 50px;
+
+} */
+
+/* .box.tall {
+    display: flex;
+    justify-content: center;
+    line-height: 100px;
+} */
+
+/* .box.medium {
+    display: flex;
+    justify-content: center;
+    line-height: 75px;
+} */
+
+    /* 04 */
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 6px;
+
+} */
+
+/* .card {
+    border-radius: 6px;
+    padding: 27px;
+    margin: 6px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: Arial, sans-serif;
+    color: #adadad;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
+} */
+
+/* 05 walang space sa gitna*/
+/* .container {
+    display: flex;
+    flex-wrap: wrap;
+    align-content: space-between;
+    width: 360px;
+    height: 220px;
+
+} */
+
+/* .card {
+    border-radius: 6px;
+    padding: 27px;
+    width: 155px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: Arial, sans-serif;
+    color: #adadad;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
+} */
+
+    /* 06 */
+/* .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+} */
+
+/* .logo, .cta {
+    border-radius: 6px;
+    padding: 12px;
+    margin: 6px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: Arial, sans-serif;
+    color: #adadad;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
+} */
+
+/* .links {
+    border-radius: 6px;
+    padding: 7px 4dvh;
+    margin: 6px;
+    width: 100px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+    font-family: Arial, sans-serif;
+    color: #adadad;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
+
+} */
+
+.container
+
+

@@ -192,27 +192,41 @@
     /* 08 */
 .container {
     display: flex;
-    direction: row-reverse;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
+
 }
 
-.box {
-
-    
-    border-radius: 6px;
-    padding: 27px;
-    width: 155px;
+.box {   
 
     display: flex;
     justify-content: center;
     align-items: center;
+    margin: 18px;
+
+    height: 60px;
+    border-radius: 6px;
    
     font-family: Arial, sans-serif;
     color: #adadad;
     background-color: #ffffff;
     box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
 }
+
+.small {
+    width: 90px;
+}
+
+.medium {
+    width: 120px;
+}
+
+.wide {
+    width: 150px;
+}
+
+
+
 
 
 

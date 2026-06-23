@@ -1,11 +1,11 @@
     /* 01 */
-/* .container{
+.container{
    display: flex;
    justify-content: space-between;
-} */
+}
 
-    /* 01 */
-/* .box {
+
+.box {
     background-color: #ffffff;
     box-shadow: 0 5px 4px rgba(58, 148, 232, 0.1);
     border-radius: 6px;
@@ -13,18 +13,17 @@
     margin: 12px;
     font-family: Arial, sans-serif;
     color: #adadad;
-} */
+}
 
     /* 02 */
-/* .container {
+.container {
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
-} */
+}
 
-    /* 02 */
-/* .box {
+.box {
     border-radius: 6px;
     padding: 27px;
     margin: 6px;
@@ -38,15 +37,15 @@
     color: #adadad;
     background-color: #ffffff;
     box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
-} */
+}
 
     /* 03 */
-/* .container {
+.container {
     display: flex;
     align-items: flex-end;
-} */
+}
 
-/* .box {
+.box {
     display: flex;
     justify-content: center;
     background-color: #ffffff;
@@ -56,36 +55,36 @@
     margin: 12px;
     font-family: Arial, sans-serif;
     color: #adadad;
-} */
+}
 
-/* .box.short {
+.box.short {
     display: flex;
     justify-content: center;
     line-height: 50px;
 
-} */
+}
 
-/* .box.tall {
+.box.tall {
     display: flex;
     justify-content: center;
     line-height: 100px;
-} */
+}
 
-/* .box.medium {
+.box.medium {
     display: flex;
     justify-content: center;
     line-height: 75px;
-} */
+}
 
     /* 04 */
-/* .container {
+.container {
     display: flex;
     flex-wrap: wrap;
     gap: 6px;
 
-} */
+}
 
-/* .card {
+.card {
     border-radius: 6px;
     padding: 27px;
     margin: 6px;
@@ -99,19 +98,19 @@
     color: #adadad;
     background-color: #ffffff;
     box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
-} */
+}
 
 /* 05 walang space sa gitna*/
-/* .container {
+.container {
     display: flex;
     flex-wrap: wrap;
     align-content: space-between;
     width: 360px;
     height: 220px;
 
-} */
+}
 
-/* .card {
+.card {
     border-radius: 6px;
     padding: 27px;
     width: 155px;
@@ -124,16 +123,16 @@
     color: #adadad;
     background-color: #ffffff;
     box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
-} */
+}
 
     /* 06 */
-/* .container {
+.container {
     display: flex;
     justify-content: space-between;
     align-items: center;
-} */
+}
 
-/* .logo, .cta {
+.logo, .cta {
     border-radius: 6px;
     padding: 12px;
     margin: 6px;
@@ -147,9 +146,9 @@
     color: #adadad;
     background-color: #ffffff;
     box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
-} */
+}
 
-/* .links {
+.links {
     border-radius: 6px;
     padding: 7px 4dvh;
     margin: 6px;
@@ -164,15 +163,15 @@
     background-color: #ffffff;
     box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
 
-} */
+}
     /* 07 */
-/* .container {
+.container {
     display: flex;
     flex-wrap: wrap;
     flex-direction: row-reverse;
-} */
+}
 
-/* .box {
+.box {
     border-radius: 6px;
     padding: 27px;
     margin: 5px;
@@ -187,7 +186,7 @@
     color: #adadad;
     background-color: #ffffff;
     box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
-} */
+}
 
     /* 08 */
 .container {
@@ -225,9 +224,53 @@
     width: 150px;
 }
 
+    /* 09 */
+.container {
+    display: flex;
+    gap: 15px;
 
+}
 
+.box {   
 
+    display: flex;
+    justify-content: center;
+    align-items: center;
 
+    width: 60px;
+    height: 60px;
+    border-radius: 6px;
+   
+    font-family: Arial, sans-serif;
+    color: #adadad;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
+}
 
+    /* 10 */
+.container {
+    width: 360px;
+    height: 200px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    align-content: flex-start;
+}
 
+.card {   
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    border-radius: 6px;
+
+    height: 40px;
+    margin: 6px;
+    width: 90px;
+   
+    font-family: Arial, sans-serif;
+    color: #adadad;
+    background-color: #ffffff;
+    box-shadow: 5px 5px 10px 0px rgba(108, 150, 228, 0.3);
+} 

@@ -2,48 +2,78 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Flexbox Components</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
-    <main>
-        <article class="container">
-            <div class="circle">
-                <h1>JD</h1>
-            </div>
-            <h2 class="b" id="name">Jane Dela Cruz</h2>
-            <p class="b">UI/UX Designer</p>
+    <main class="component-page">
+        <section class="component-section">
+            <article class="profile-card">
+                <p class="profile-avatar">JD</p>
+                <h2>Jane Dela Cruz</h2>
+                <p>UI/UX Designer</p>
+            </article>
+        </section>
 
-        </article>
+        <section class="component-section">
+            <ul class="pricing-list">
+                <li class="pricing-card">
+          <article>
+            <h3>Basic</h3>
+            <p class="plan-price">&#8369;299/mo</p>
+          </article>
+        </li>
+        <li class="pricing-card">
+          <article>
+            <h3>Pro</h3>
+            <p class="plan-price">&#8369;599/mo</p>
+          </article>
+        </li>
+        <li class="pricing-card">
+          <article>
+            <h3>Premium</h3>
+            <p class="plan-price">&#8369;999/mo</p>
+          </article>
+        </li>
+            </ul>
+        </section>
 
-        <div class="container2">
-            <div class="card">
-                <span>
-                    <h2 class="tiers">basic</h2>
-                </span>
-                <h1>₱299</h1>
-                <p>/mo</p>
-            </div>
-            <div class="card">
-                <span>
-                    <h2 class="tiers">pro</h2>
-                </span>
-                <h1>₱599</h1>
-                <p>/mo</p>
-            </div>
-            <div class="card">
-                <span>
-                    <h2 class="tiers">premium</h2>
-                </span>
-                <h1>₱999</h1>
-                <p>/mo</p>
+        <section class="component-section">
+            <nav class="brand-navigation">
+                <a class="brand-logo" href="#">Brandly</a>
+                <ul class="navigation-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Services</a></li>
+                </ul>
+                <a class="signup-link" href="#">Sign Up</a>
+            </nav>
+        </section>
 
-            </div>
-        </div>
+        <section class="component-section">
+            <article class="comment-card">
+                <p class="comment-avatar">MR</p>
+                <section class="comment-body">
+                    <h3>Mark Reyes</h3>
+                    <p>This tutorial finally made flexbox click for me. The visual examples really helped &mdash;
+                        thanks!</p>
+                </section>
+            </article>
+        </section>
 
+        <section class="component-section">
+            <ul class="tag-list">
+                <li>HTML</li>
+                <li>CSS</li>
+                <li>JavaScript</li>
+                <li>Flexbox</li>
+                <li>Responsive Design</li>
+                <li>Git</li>
+            </ul>
+        </section>
     </main>
 </body>
 

@@ -1,20 +1,3 @@
-/* Step 2 Answer: So that it's allowed to position them separately. 
-The header uses display: flex to put the <p> on the top left 
-and the nav on the top right using justify-content where main axis 
-is used. Then the nav also uses display: flex so that the links 
-inside it are placed in one row. 
-Each have different placement. */
-
-/* Step 4 Answer: They were already stacking correctly, but 
-I still added display: flex and flex-direction: column so 
-I have better control over the layout. */
-
-/* Step 6 Answer: Using only Flexbox would be harder to maintain 
-because I would need to adjust widths for each card. If I wanted to 
-change which cards are wide, I would have to edit those width values 
-again and again. Using Grid, I only need to add one class and use grid-column: 
-span 2, so it's much easier to manage and change later. */
-
 /* Resets to default margins and padding applied to all elements*/
 
 
@@ -60,7 +43,7 @@ span 2, so it's much easier to manage and change later. */
   background-color: #fff;
 }
 
-.info-card + .info-card {
+.info-card+.info-card {
   margin-top: 20px;
 }
 
@@ -118,3 +101,39 @@ span 2, so it's much easier to manage and change later. */
 .contact__desc {
   color: #c9c9c9;
 }
+
+.footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 56px;
+}
+
+.footer__links {
+  display: flex;
+  gap: 40px;
+}
+
+/* ...written as a comment block at the BOTTOM... */
+/* Step 2 Answer: So that it's allowed to position them separately. 
+The header uses display: flex to put the <p> on the top left 
+and the nav on the top right using justify-content where main axis 
+is used. Then the nav also uses display: flex so that the links 
+inside it are placed in one row. 
+Each have different placement. */
+
+/* Step 4 Answer: They were already stacking correctly, but 
+I still added display: flex and flex-direction: column so 
+I have better control over the layout. */
+
+/* Step 6 Answer: Using only Flexbox would be harder to maintain 
+because I would need to adjust widths for each card. If I wanted to 
+change which cards are wide, I would have to edit those width values 
+again and again. Using Grid, I only need to add one class and use grid-column: 
+span 2, so it's much easier to manage and change later. */
+
+/* Step 7 Answer: The contact section didn't need display: flex because 
+its items were already stacking the way I wanted. 
+I just needed to center the text, so text-align: center was enough. 
+The navbar needed display: flex because its children had to be placed
+side by side.*/

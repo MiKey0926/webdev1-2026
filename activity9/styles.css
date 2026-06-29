@@ -1,0 +1,120 @@
+/* Step 2 Answer: So that it's allowed to position them separately. 
+The header uses display: flex to put the <p> on the top left 
+and the nav on the top right using justify-content where main axis 
+is used. Then the nav also uses display: flex so that the links 
+inside it are placed in one row. 
+Each have different placement. */
+
+/* Step 4 Answer: They were already stacking correctly, but 
+I still added display: flex and flex-direction: column so 
+I have better control over the layout. */
+
+/* Step 6 Answer: Using only Flexbox would be harder to maintain 
+because I would need to adjust widths for each card. If I wanted to 
+change which cards are wide, I would have to edit those width values 
+again and again. Using Grid, I only need to add one class and use grid-column: 
+span 2, so it's much easier to manage and change later. */
+
+/* Resets to default margins and padding applied to all elements*/
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 28px 56px;
+  border-bottom: 1px solid #ddd;
+}
+
+.navbar__links {
+  display: flex;
+  gap: 40px;
+}
+
+.hero {
+  display: flex;
+  gap: 64px;
+  align-items: flex-start;
+  max-width: 1140px;
+  margin: 0 auto;
+  padding: 100px 56px;
+}
+
+.hero__text {
+  flex: 1.2;
+}
+
+.hero__panel {
+  flex: 1;
+}
+
+.info-card {
+  padding: 28px 32px;
+  border: 1px solid #e4ddd6;
+  background-color: #fff;
+}
+
+.info-card + .info-card {
+  margin-top: 20px;
+}
+
+.info-card p:first-child {
+  margin-bottom: 14px;
+  color: #9a8f88;
+  font-size: 13px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.info-card p:last-child {
+  color: #242424;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.info-card--accent {
+  border-color: #b9572d;
+  background-color: #b9572d;
+}
+
+.info-card--accent p {
+  color: #fff;
+}
+
+.skills__grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1px;
+  background-color: #e4ddd6;
+  border: 1px solid #e4ddd6;
+}
+
+.skill-card {
+  background-color: #fff;
+  padding: 40px;
+}
+
+.skill-card--wide {
+  grid-column: span 2;
+}
+
+.contact {
+  padding: 100px 56px;
+  background-color: #171717;
+  color: #fff;
+  text-align: center;
+}
+
+.contact__eyebrow {
+  color: #e7b197;
+}
+
+.contact__desc {
+  color: #c9c9c9;
+}

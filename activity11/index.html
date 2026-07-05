@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>LumaLearn</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav-inner">
+        <a href="#" class="logo">LumaLearn</a>
+        <ul class="nav-links">
+          <li><a href="#features">Features</a></li>
+          <li><a href="#curriculum">Curriculum</a></li>
+          <li><a href="#about">About</a></li>
+        </ul>
+        <div class="nav-cta">
+          <a class="btn" href="#">Log In</a>
+          <a class="btn btn-accent" href="#">Start Free</a>
+        </div>
+        <button class="hamburger" aria-label="Toggle menu" aria-expanded="false">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+      </div>
+      <div class="mobile-menu">
+        <a href="#features">Features</a>
+        <a href="#curriculum">Curriculum</a>
+        <a href="#about">About</a>
+        <a class="btn" href="#">Start Free</a>
+      </div>
+    </nav>
+
+    <main>
+      <section class="hero">
+        <div class="container">
+          <span class="tag">New • Cohort 2026</span>
+          <h1>Learn modern web skills with <em>real-world</em> projects.</h1>
+          <p>
+            Build polished interfaces, ship faster, and grow your confidence with hands-on lessons designed for beginners and creators.
+          </p>
+          <div class="hero-actions">
+            <a class="btn btn-accent" href="#">Join the Bootcamp</a>
+            <a class="btn" href="#">View Syllabus</a>
+          </div>
+          <div class="bp-viz">
+            <div class="bp-header"></div>
+            <div class="bp-track">
+              <div class="bp-fill"></div>
+            </div>
+            <div class="bp-markers">
+              <div class="bp-marker">Mobile</div>
+              <div class="bp-marker">Tablet</div>
+              <div class="bp-marker">Laptop</div>
+              <div class="bp-marker">Desktop</div>
+            </div>
+            <div class="bp-code">
+              <span>@media (min-width: 1024px)</span>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="proof">
+        <div class="container proof-inner">
+          <p>Trusted by...</p>
+          <div class="avatar-row">
+            <div class="avatar">AM</div>
+            <div class="avatar">JR</div>
+            <div class="avatar">SK</div>
+            <div class="avatar">LM</div>
+            <div class="avatar">DT</div>
+          </div>
+          <div class="proof-text">2,400+ students launched their first portfolio</div>
+        </div>
+      </div>
+
+      <section class="features" id="features">
+        <div class="container">
+          <div class="section-heading">
+            <span class="tag">Why learners choose us</span>
+            <h2>Everything you need to build confidently</h2>
+            <p>Fast lessons, practical projects, and feedback that helps you improve every week.</p>
+          </div>
+          <div class="features-grid">
+            <div class="feature-card">
+              <div class="feature-icon">01</div>
+              <h3>Modern Foundations</h3>
+              <p>Master HTML, CSS, and JavaScript with clear explanations and real examples.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">02</div>
+              <h3>Responsive Design</h3>
+              <p>Learn how layouts shift smoothly from phones to large desktop screens.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">03</div>
+              <h3>Accessibility</h3>
+              <p>Create interfaces that are easier to use, navigate, and understand.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">04</div>
+              <h3>Live Projects</h3>
+              <p>Build portfolio-ready pages and ship complete mini websites step by step.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">05</div>
+              <h3>Community Support</h3>
+              <p>Get guidance from mentors and peers as you move through each lesson.</p>
+            </div>
+            <div class="feature-card">
+              <div class="feature-icon">06</div>
+              <h3>Career Ready</h3>
+              <p>Practice the tools and habits that make your work look polished and professional.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <section class="curriculum" id="curriculum">
+        <div class="container curriculum-layout">
+          <div class="curriculum-info">
+            <span class="tag">Curriculum</span>
+            <h2>Built for steady progress</h2>
+            <p>Each lesson introduces one concept, reinforces it with practice, and leads into a real project.</p>
+            <div class="stat-row">
+              <div class="stat-block">
+                <strong>6</strong>
+                <span>Core Modules</span>
+              </div>
+              <div class="stat-block">
+                <strong>12</strong>
+                <span>Hands-on Labs</span>
+              </div>
+              <div class="stat-block">
+                <strong>24/7</strong>
+                <span>Mentor Access</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="accordion">
+            <div class="acc-item open">
+              <button class="acc-header">
+                <span>01. Build a solid page structure</span>
+                <span class="chevron">⌄</span>
+              </button>
+              <div class="acc-body">
+                <div class="acc-body-inner">
+                  Learn how semantic tags create clear content order and improve accessibility.
+                </div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-header">
+                <span>02. Style with design tokens</span>
+                <span class="chevron">⌄</span>
+              </button>
+              <div class="acc-body">
+                <div class="acc-body-inner">
+                  Use shared color, spacing, and radius values to keep your work consistent.
+                </div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-header">
+                <span>03. Add responsive layouts</span>
+                <span class="chevron">⌄</span>
+              </button>
+              <div class="acc-body">
+                <div class="acc-body-inner">
+                  Switch from stacked mobile sections into multi-column layouts on larger screens.
+                </div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-header">
+                <span>04. Create interactive menus</span>
+                <span class="chevron">⌄</span>
+              </button>
+              <div class="acc-body">
+                <div class="acc-body-inner">
+                  Toggle dropdowns with events and make your interface feel responsive.
+                </div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-header">
+                <span>05. Work with accordions</span>
+                <span class="chevron">⌄</span>
+              </button>
+              <div class="acc-body">
+                <div class="acc-body-inner">
+                  Open one lesson at a time and keep the experience tidy and focused.
+                </div>
+              </div>
+            </div>
+            <div class="acc-item">
+              <button class="acc-header">
+                <span>06. Polish for launch</span>
+                <span class="chevron">⌄</span>
+              </button>
+              <div class="acc-body">
+                <div class="acc-body-inner">
+                  Review spacing, contrast, and readability so your final page feels complete.
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <div class="cta-strip">
+        <div class="container">
+          <h2>Ready to build your first polished page?</h2>
+          <p>Join today and start turning ideas into working layouts that feel professional.</p>
+          <div class="cta-actions">
+            <a class="btn btn-accent" href="#">Get Started</a>
+            <a class="btn" href="#">See Plans</a>
+          </div>
+        </div>
+      </div>
+    </main>
+
+    <footer>
+      <div class="container footer-inner">
+        <p>© 2026 LumaLearn</p>
+        <ul class="footer-links">
+          <li><a href="#">Privacy</a></li>
+          <li><a href="#">Terms</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+  </body>
+</html>

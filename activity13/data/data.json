@@ -1,0 +1,26 @@
+{
+  "skills": [
+    {"name":"HTML","icon":"</>","level":90},
+    {"name":"CSS","icon":"{}","level":85},
+    {"name":"JavaScript","icon":"JS","level":75},
+    {"name":"Java","icon":"J+","level":65},
+    {"name":"Figma","icon":"Fg","level":70},
+    {"name":"Git","icon":"Gt","level":60}
+  ],
+  "projects": [
+    {"title":"Airline Booking Website","description":"A clear, responsive booking interface designed to make planning a trip feel simple.","display":"Fly further.","color":"#7a1f2b","tags":["Figma"],"link":"https://www.figma.com/design/mGVkMP5BQNS0QVs7OETwK4/Odysseus?node-id=41-143&t=0T7sm1cBEKXC7nYh-0"},
+    {"title":"ExamHub","description":"A practical application for organizing exam-related information and student tasks.","display":"Study smarter.","color":"#6c7a57","tags":["Java","JSON"],"link":"https://github.com/MiKey0926/oop-2026/tree/2c8818e3809adb6f2782cc4988b078704aec6de3/finals/app"},
+    {"title":"Rock, Paper, Scissors","description":"A calm online space that brings together my work, interests, and growing skills.","display":"Made by me.","color":"#c46a3a","tags":["Java","JSON"],"link":"https://github.com/MiKey0926/oop-2026/tree/2c8818e3809adb6f2782cc4988b078704aec6de3/finals/app"}
+  ],
+  "hobbies": [
+    {"name":"Art","image":"assets/art.jpg","description":"A quiet way for me to explore ideas, color, and small details."},
+    {"name":"Gardening","image":"assets/garden.jpg","description":"I enjoy the patience of helping something grow, day by day."},
+    {"name":"Baking","image":"assets/cookies.jpg","description":"Sharing something homemade is one of my favorite simple joys."}
+  ],
+  "timeline": [
+    {"type":"Education","title":"Lorma Colleges","subtitle":"Bachelor of Science in Information Technology","date":"2025-Present"},
+    {"type":"Work Experience","title":"Part-Time Listing Assistant","subtitle":"Created and maintained online land property listings while ensuring listing information remained accurate and organized.","date":"2025–2026"},
+    {"type":"Education","title":"Saint Louis College","subtitle":"Bachelor of Science in Information Technology","date":"2024-2025"},
+    {"type":"Education","title":"Junior High School & Senior High School","subtitle":"Secondary Education","date":"2018-2024"}
+  ]
+}
